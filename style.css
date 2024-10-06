@@ -1,0 +1,107 @@
+header{
+    height: 150px;
+    background-color: rgba(128, 128, 128, 0.481);
+    margin-bottom: 20px;
+    border-radius: 12px;
+    display: flex;}
+
+    .headerTitulo{
+        margin: -30px;
+        margin-top: 45px;
+        margin-right: 10px;
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+
+body {
+    background-image: url('Imagens/pyrenees-351266_1280.jpg');
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.imgHeader img{
+    border-radius: 12px;
+    height: 150px;
+    width: auto;
+    padding: 5px;
+    margin-right: 70px; /* Adiciona espaço à direita da imagem */
+    display: inline-block; /* Add this */
+}
+
+
+
+.layer01 {
+    display: inline-block;
+    background-color: rgba(36, 36, 36, 0.940);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: rgb(0, 0, 0, 40%) 0px 0px 50px 8px;
+    margin: 90px;
+    margin-top: 80px;
+    position: relative; /* Torna a div referência para o posicionamento da imagem */
+}
+
+h1, p, li {
+    margin-left: 20px;
+    color: white;
+    font-size: 200%;
+}
+li{
+    font-size: 150%;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.imagensTopo img{
+    position: relative;
+    display: inline-block;
+    height: 250px;
+    width: 33%;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.imgSeparacaoes img{
+    margin: 20px;
+    height: 250px;
+    width: 33%;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+iframe {
+
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.Content {
+    background-color: rgba(93, 93, 93, 0.456);
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(44, 44, 44);
+    height: 400px;
+    width: 100%;
+}
+ 
+#mapa{
+    height: 400px;
+    width: 800px;
+    margin-left: 240px;
+}
+a{
+    color: white;
+}
+
+
+
+
+
